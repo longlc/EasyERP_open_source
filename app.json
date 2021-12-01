@@ -1,7 +1,7 @@
 {
   "name": "test",
   "script": "server.js",
-  "node_args": ['--debug=55555'],
+  "node_args": [],
   "instances"  : 0,
   "exec_mode"  : "cluster",
   "env": {
@@ -10,5 +10,8 @@
   "env_production" : {
     "NODE_ENV": "production"
   },
-  "watch"       : true
+  "watch"       : true,
+  "repository": "https://github.com/longlc/EasyERP_open_source",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "express", "static"]
 }
