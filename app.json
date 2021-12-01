@@ -1,17 +1,25 @@
 {
-  "name": "test",
-  "script": "server.js",
-  "node_args": [],
-  "instances"  : 0,
-  "exec_mode"  : "cluster",
-  "env": {
-    "NODE_ENV": "production",
-  },
-  "env_production" : {
-    "NODE_ENV": "production"
-  },
-  "watch"       : true,
-  "repository": "https://github.com/longlc/EasyERP_open_source",
-  "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "keywords": ["node", "express", "static"]
+    "name": "test",
+    "script": "server.js",
+    "node_args":
+    [],
+    "instances": 0,
+    "exec_mode": "cluster",
+    "env":
+    {
+        "NODE_ENV": "production"
+    },
+    "env_production":
+    {
+        "NODE_ENV": "production"
+    },
+    "watch": true,
+    "repository": "https://github.com/longlc/EasyERP_open_source",
+    "logo": "https://node-js-sample.herokuapp.com/node.png",
+    "keywords":
+    [
+        "node",
+        "express",
+        "static"
+    ]
 }
